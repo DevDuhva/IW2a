@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+     padding: 0;
+     height:100%;
+     background-color: rgb(172, 56, 56)
+}
+
+div{
+     
+    border: 1px solid #f00;
+
+
+}
+
