@@ -12,3 +12,9 @@ div{
 
 }
 
+.tabela {
+background-color: rgb(159, 161, 163);
+border: 5px double rgb(0, 0, 0) ;
+border-radius: 25%;
+font-size: 50px;
+}
