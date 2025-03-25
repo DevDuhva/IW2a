@@ -1,13 +1,13 @@
 html, body {
-    margin: 0;
-     padding: 0;
-     height:100%;
-     background-color: rgb(172, 56, 56)
+    margin: 0; // margens;
+     padding: 0; //preenchimento;
+     height:100%; //altura da janela;
+     background-color: rgb(172, 56, 56); //cor de fundo;
 }
-
-div{
+//estilos aos elementos;
+div{ 
      
-    border: 1px solid #f00;
+    border: 1px solid #f00; //bordas
 
 
 }
@@ -15,6 +15,6 @@ div{
 .tabela {
 background-color: rgb(159, 161, 163);
 border: 5px double rgb(0, 0, 0) ;
-border-radius: 25%;
-font-size: 50px;
+border-radius: 25%; //arredondamento das bordas;
+font-size: 50px; // tamanho da fonte;
 }
