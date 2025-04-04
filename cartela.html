@@ -8,10 +8,10 @@
 </head>
 <body>
     <table class="tabela">
-<thead>  //cabeçalho da tabela
-<tr> //Representa uma linha da horizontal
+<thead> <!-- cabeçalho da tabela -->
+<tr> <!-- Representa uma linha da horizontal -->
     
-    <th>B</th> //celula do cabeçalho
+    <th>B</th> <!-- celula do cabeçalho -->
     <th>I</th>
     <th>N</th>
     <th>G</th>
@@ -21,8 +21,8 @@
 
 </thead>
 
-<tbody>  //corpo da tabela
-<td id= "b1">12</td> <!--B--> //celula da linha no corpo da tabela
+<tbody>  <!--corpo da tabela -->
+<td id= "b1" onclick="MarcarCartela(this)">12</td> <!--B--> <!--celula da linha no corpo da tabela , this se refere a esse elemento(td ao todo nessa linha)--> 
 <td id= "I1">30</td> <!--I-->
 <td id= "N1">33</td> <!--N-->
 <td id= "G1">51</td> <!--G-->
@@ -71,8 +71,29 @@
 
 
     </table>
+    <button id="botao" onclick="Piscar()"> <!-- /* id=identificar o butao, onclick = evento de click -->
+        Piscando o butao
+    </button>
     <script>
+        function Piscar () /*criando um funçao, precis do parentese pra receber as informaçoes.*/
+        {
+            var botao = document.getElementById ("botao");
+            if(botao.style.backgroundColor == 'red') //o ponto serve para acessar as propriedas//
+        
+        {
+            botao.style.backgroundColor = 'blue';
 
+        }else {
+            botao.style.backgroundColor = 'red'; 
+
+        }
+    }
+        { function MarcarCartela(td) 
+         {
+            td.style.backgroundColor = 'black';
+            td.style.color = "white";
+         }
+        }
 
 
     </script>
