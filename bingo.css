@@ -1,25 +1,40 @@
 body , html {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(216, 255, 237);
     margin: 0;
     padding: 0;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-} 
-
+ 
+ 
+}
+ 
 .tabela {
-    background-color: rgb(247, 152, 192);
-    border: 5px double rgb(0, 0, 0) ;
+    background-color: rgb(198, 149, 204);
+    border: 2px double rgb(0, 0, 0) ;
     border-radius: 5%;
     font-size: 50px;
-    padding: 5px 7px;
+    padding: 5px 8%;
     }
 td {
     border: solid;
     border-radius: 30%;
     text-align: center;
     padding: 5px 7px;
-} 
+}
+
+.tabela2 {
+    background-color: rgb(39, 223, 161);
+    border: 2px double rgb(0, 0, 0) ;
+    border-radius: 5%;
+    font-size: 25px;
+    padding: 5px 8%;
+    }
+td {
+    border: solid;
+    border-radius: 30%;
+    text-align: center;
+    padding: 5px 7px;
+}
+ 
